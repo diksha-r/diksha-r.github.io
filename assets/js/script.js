@@ -25,24 +25,6 @@ $(document).ready(function() {
 
 
 
-	$('#search').click(function(){
-		
-		if ($('.popover').hasClass('popover-active')) {
-
-			$('.popover').removeClass('popover-active');
-			setTimeout(function(){
-				$('.popover').hide();
-			}, 400);
-			
-		} else {
-			$('.popover').show();
-			setTimeout(function(){
-				$('.popover').addClass('popover-active');
-			}, 0);
-		}
-		
-	});
-
     
 
 	$(".img11caption").hover(function(){

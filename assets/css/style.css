@@ -168,35 +168,7 @@ body{
   padding-right: 5px;
   z-index: 10;
   width: 80px;
-}
-.popover {
-    background: white;
-    width: 240px;
-    border-radius: 2px;
-    padding: 36px 18px;
-    font-size: 13px;
-    font-weight: 700;
-    position: absolute;
-    left: calc(50% - 138px);
-    box-shadow: 0px 0px 5px #edeae5;
-    /* Add your original state for popover here */
-}
 
-.popover-active {
-  
-  /* Add your active state for popover here */
-  
-}
-.popover::before {
-    border-bottom: 8px solid white;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    content: '';
-    top: -8px;
-    left: calc(50% - 4px);
 }
 #fb{
   padding-right: 5px;
