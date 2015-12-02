@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-4
+
 	$("#title").click(function(){
 		$("#title").fadeOut(400)
 	});
